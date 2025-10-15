@@ -8,13 +8,13 @@
     <body>
         <?php
         $a = -2;
-        while ($a > -7) {
+        while ($a >= -6) {
             $a--;
             echo "$a <br>";
         }
 
-        for ($i=1; $i < 6; $i++) { 
-            echo "Paragraf $i <br>";
+        for ($i=1; $i <= 5; $i++) { 
+            echo "<p> $i </p><br>";
         }
 
         ?>
